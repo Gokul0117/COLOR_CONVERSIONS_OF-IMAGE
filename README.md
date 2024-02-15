@@ -45,15 +45,15 @@ Split and merge HSV Image
 ### i) Read and display the image                  
                                                       
  
-    ```
-    import cv2                                                      
+  
+ ```import cv2                                                      
     image=cv2.imread('lily.jpg',1)
     image=cv2.resize(image,(400,300))
     cv2.imshow('Gokul J',image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-    ```
-    
+ ```
+
 ## Output:
   ![Screenshot 2024-02-15 145958](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/5e323ed8-f85c-4179-9645-feac56b1861e)
 
