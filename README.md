@@ -69,7 +69,7 @@ Split and merge HSV Image
 ### iii)Shape of the Image                           
                                                           
 ``` import cv2
-    image=cv2.imread('space1.jpg',1)
+    image=cv2.imread('lily.jpg',1)
     print(image.shape)
 ```
 ## Output:
